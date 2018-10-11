@@ -1,0 +1,28 @@
+html, body {
+  height: 100%;
+}
+
+.aesth-bg {
+	background: linear-gradient(270deg, #f375e4, #d275e6, #804fc4, #1f38a4, #042145);
+	background-size: 1000% 1000%;
+
+	-webkit-animation: BackgroundEaseAnimation 30s ease 0s infinite normal none running;
+	-moz-animation: BackgroundEaseAnimation 30s ease 0s infinite normal none running;
+	animation: BackgroundEaseAnimation 30s ease 0s infinite normal none running;
+}
+
+@-webkit-keyframes BackgroundEaseAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes BackgroundEaseAnimation {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes BackgroundEaseAnimation { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

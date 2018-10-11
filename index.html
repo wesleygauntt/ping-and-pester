@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>JS Tracker ping</title>
+
+    <link href="./stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="./stylesheets/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  </head>
+
+  <body class="text-center aesth-bg d-flex align-items-center justify-content-center py-40">
+    <form>
+      
+      <h6 class="mb-3 font-weight-normal text-white">Enter JS Tracker URL</h6>
+      <input type="text" id="url" class="form-control mb-4" placeholder="https://yourwebsite.com/trackingpixel?pixelid=12345" required="" autofocus="">
+
+      <button class="btn btn-default btn-block" type="submit">Ping</button>
+    </form>
+
+    <div id="trackingdiv"></div>
+  </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./scripts/script.js"></script>
+</html>
